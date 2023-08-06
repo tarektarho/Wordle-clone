@@ -1,4 +1,3 @@
-import React from "react"
 import Letter from "../letter/Letter"
 
 export default function Board() {

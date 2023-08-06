@@ -1,4 +1,4 @@
-import React, { useContext } from "react" // Importing necessary modules from React
+import  { useContext } from "react" // Importing necessary modules from React
 import { AppContext } from "../../App" // Importing AppContext from a relative path
 import PropTypes from "prop-types" // Importing PropTypes for prop type validation
 

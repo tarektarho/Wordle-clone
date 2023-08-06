@@ -1,5 +1,5 @@
 // Import necessary dependencies and components
-import React, { createContext, useEffect, useState } from "react"
+import { createContext, useEffect, useState } from "react"
 import "./App.css"
 import Board from "./components/board/Board"
 import Keyboard from "./components/keyboard/Keyboard"
