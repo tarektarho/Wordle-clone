@@ -1,0 +1,12 @@
+.letter {
+  height: 52px;
+  width: 52px;
+  border: 2px solid #3a3a3c;
+  display: grid;
+  place-items: center;
+  font-size: 30px;
+  font-weight: bolder;
+  color: white;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}

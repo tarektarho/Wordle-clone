@@ -1,6 +1,7 @@
 import { useCallback, useContext, useEffect, useMemo } from "react"
 import Key from "../key/Key"
 import { AppContext } from "../../App"
+import "./style.css"
 
 export default function Keyboard() {
   // Destructuring values from the context

@@ -1,4 +1,5 @@
 import Letter from "../letter/Letter"
+import "./style.css"
 
 export default function Board() {
   return (

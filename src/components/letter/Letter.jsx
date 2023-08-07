@@ -1,6 +1,8 @@
 import  { useContext, useEffect } from "react"
 import { AppContext } from "../../App"
 import PropTypes from "prop-types" // Import PropTypes with the correct name
+import "./style.css"
+
 
 function Letter({ letterPos, attemptVal }) {
    // Extracting values from the context using destructuring
