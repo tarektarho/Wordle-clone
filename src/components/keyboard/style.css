@@ -26,3 +26,9 @@
   justify-content: center;
   margin: 5px;
 }
+
+@media only screen and (max-width: 600px) {
+  .keyboard {
+    width: 375px;
+  }
+}
