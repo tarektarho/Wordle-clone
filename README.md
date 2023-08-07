@@ -4,6 +4,8 @@ Wordle Game is a word guessing game built with React and Vite.
 
 ![Wordle Screenshot](./src/assets/screenshot.png)
 
+Wanna play? Visit this link: [Game Link](https://main--preeminent-starship-e40d4a.netlify.app/)
+
 ## Table of Contents
 
 - [About](#about)
