@@ -2,7 +2,7 @@
 
 Wordle Game is a word guessing game built with React and Vite.
 
-![Wordle Screenshot](screenshot.png)
+![Wordle Screenshot](./src/assets/screenshot.png)
 
 ## Table of Contents
 
