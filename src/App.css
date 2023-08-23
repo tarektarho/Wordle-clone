@@ -35,14 +35,58 @@ nav h1 {
   flex-direction: column;
 }
 
-#correct {
-  background-color: #528d4e;
+.row > div.correct {
+  --background: #5ac85a;
+  --border-color: #5ac85a;
+  animation: flip 0.5s ease forwards;
 }
 
-#almost {
-  background-color: #b49f39;
+.row > div.almost {
+  --background: #e2cc68;
+  --border-color: #e2cc68;
+  animation: flip 0.5s ease forwards;
 }
 
-#error {
-  background-color: #3a393c;
+.row > div.error {
+  --background: #a1a1a1;
+  --border-color: #a1a1a1;
+  animation: flip 0.6s ease forwards;
+}
+
+.row > div:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.row > div:nth-child(3) {
+  animation-delay: 0.4s;
+}
+.row > div:nth-child(4) {
+  animation-delay: 0.6s;
+}
+.row > div:nth-child(5) {
+  animation-delay: 0.8s;
+}
+
+/* Animations */
+@keyframes flip {
+  0% {
+    transform: rotateX(0);
+    background: #121212;
+    border-color: #333;
+  }
+  45% {
+    transform: rotateX(90deg);
+    background: #121212;
+    border-color: #333;
+  }
+  55% {
+    transform: rotateX(90deg);
+    background: var(--background);
+    border-color: var(--border-color);
+  }
+  100% {
+    transform: rotateX(0deg);
+    background: var(--background);
+    border-color: var(--border-color);
+    color: #eee;
+  }
 }
